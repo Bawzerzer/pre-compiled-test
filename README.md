@@ -19,7 +19,11 @@ yes | pkg update -y
 yes | pkg upgrade -y
 yes | pkg install libjansson wget nano -y
 ```
-3. Download ccminer, config, start:
+3.For android that facilitates access to the device's shared storage :
+```
+termux-setup-storage
+```
+4. Download ccminer, config, start:
 ```
 mkdir ccminer && cd ccminer
 wget https://raw.githubusercontent.com/Bawzerzer/pre-compiled-test/generic/ccminer
