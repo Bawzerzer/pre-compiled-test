@@ -27,6 +27,15 @@ wget https://raw.githubusercontent.com/Bawzerzer/pre-compiled-test/generic/confi
 wget https://raw.githubusercontent.com/Bawzerzer/pre-compiled-test/generic/start.sh
 chmod +x ccminer start.sh
 ```
+# Auto-Run Setup:
+1. Comand Edit Config Startup :
+```
+cd && cd && cd && nano  ../usr/etc/bash.bashrc
+```
+2. Add the start command at the bottom line :
+```
+~/ccminer/start.sh
+```   
 # Usage:
 
 1. Edit your pools, address, worker name:
